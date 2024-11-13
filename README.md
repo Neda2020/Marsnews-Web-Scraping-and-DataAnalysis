@@ -12,10 +12,14 @@ The primary goal of this project is to showcase web-scraping and data analysis s
 The goal of Part 1 was to scrape the titles and preview text of Mars news articles from a webpage using automated browsing and HTML parsing.
 
 ## Methodology
-.Automated Browsing: I used the Splinter library to navigate to the Mars News website.
-.HTML Parsing: BeautifulSoup was utilized to extract and parse text elements such as titles and preview text of news articles.
-.Data Storage: Each title and preview text was stored in a dictionary, and all dictionaries were appended to a list for easy access and potential storage.
-.Data Output: The final result was printed in a structured format and optionally saved in a JSON file for sharing.
+# Automated Browsing:
+I used the Splinter library to navigate to the Mars News website.
+# HTML Parsing:
+BeautifulSoup was utilized to extract and parse text elements such as titles and preview text of news articles.
+# Data Storage:
+Each title and preview text was stored in a dictionary, and all dictionaries were appended to a list for easy access and potential storage.
+# Data Output:
+The final result was printed in a structured format and optionally saved in a JSON file for sharing.
 Code Highlights
 
 ## Copy Highlights
@@ -35,11 +39,11 @@ This part demonstrated the use of web-scraping techniques to extract relevant da
 In Part 2, we scraped and analyzed Mars weather data, focusing on patterns in atmospheric pressure and minimum temperature across Martian months. The data was scraped from a table on a Mars temperature webpage.
 
 # Methodology
-## .Automated Browsing and Scraping: 
+## Automated Browsing and Scraping: 
 Splinter and BeautifulSoup were used to extract the table data from the webpage.
-## .Data Cleaning and Manipulation: 
+## Data Cleaning and Manipulation: 
 Data was organized into a Pandas DataFrame with appropriate column headings and data types.
-## .Data Analysis:
+## Data Analysis:
 .Counted the number of unique Martian months.
 .Determined the total number of Martian sols (days) represented in the dataset.
 .Calculated and visualized the average minimum temperature and average atmospheric pressure for each Martian month.
