@@ -37,6 +37,14 @@ This part demonstrated the use of web-scraping techniques to extract relevant da
 ## Part 2: Mars Weather Data Scraping and Analysis
 # Objective
 In Part 2, we scraped and analyzed Mars weather data, focusing on patterns in atmospheric pressure and minimum temperature across Martian months. The data was scraped from a table on a Mars temperature webpage.
+#### Minimum Temperature
+Mars experiences extreme cold, with temperatures varying between -90°C and -60°C. The coldest month is month 3, while the warmest occurs in month 8. Despite the harsh conditions, the temperature follows a predictable pattern.
+
+#### Atmospheric Pressure
+Mars' thin atmosphere exhibits seasonal fluctuations, with pressure reaching its peak in month 9 and dipping in month 6. These variations highlight the planet’s challenging environment, making human survival and stable water presence difficult.
+
+#### Year Length
+The data reveals that Mars' minimum temperature varies cyclically between approximately -90°C and -60°C, corresponding to seasonal changes. This recurring pattern indicates that a complete Martian year is approximately 671 sols in length.
 
 # Methodology
 ## Automated Browsing and Scraping: 
